@@ -1,0 +1,35 @@
+<html>
+<body bgcolor="#000000">
+<!-- Copiar dentro del tag BODY -->
+<center>
+	<div>
+		<font color=green size=4>
+			Session Start
+		</font>
+	</div>
+	<div>
+		<font color=red size=7>
+			Only Admin!
+		</font>
+	</div>
+	<div class=cua>
+		<script LANGUAGE="JavaScript">
+			function Entrar(password) {window.location=password+".html"}
+		</script>
+		<form>
+			<p><input type="password" name="palabra" size="25"> <input type="button" value="Login" onClick="Entrar(this.form.palabra.value)" name="button"> </p>
+		</form>
+	</div>
+</center>
+<style>
+      .cua{
+        padding:10px;
+        margin:10px;
+        border: 2px solid green;
+        background-color: #000000;
+        color: white;
+      }
+</style>
+
+</body>
+</html> 
