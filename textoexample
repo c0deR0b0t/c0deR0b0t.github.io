@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>textos</title>
+    </head>
+    <body>
+        <h1>Esto es un texto</h1>
+        <h2>Esto es un texto</h2>
+        <h3>Esto es un texto</h3>
+        <h4>Esto es un texto</h4>
+        <h5>Esto es un texto</h5>
+        <h6>Esto es un texto</h6>
+        <p>Esto es un texto</p>
+        <script>
+            document.write("Esto es un texto generado por javascript")
+        </script>
+    </body>
+</html>
